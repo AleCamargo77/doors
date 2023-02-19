@@ -5,6 +5,8 @@ export default function Gift() {
     <div className={styles.gift}>
       <div className={styles.top}></div>
       <div className={styles.body}></div>
+      <div className={styles.giftLink1}></div>
+      <div className={styles.giftLink2}></div>
     </div>
   );
 }

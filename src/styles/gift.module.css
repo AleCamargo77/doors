@@ -1,5 +1,6 @@
 .gift {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
 }
@@ -14,4 +15,19 @@
   width: 90px;
   height: 60px;
   background-color: #5c7e32;
+}
+
+.giftLink1 {
+  position: absolute;
+  background-color: red;
+  width: 15px;
+  height: 85px;
+}
+
+.giftLink2 {
+  position: absolute;
+  top: 40px;
+  width: 90px;
+  height: 15px;
+  background-color: red;
 }
